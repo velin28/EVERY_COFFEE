@@ -11,12 +11,13 @@ header{
 }
 #menu{
 	padding: 45px;
-	background: #3600FF;
+	background: #660000;
 }
 #promoçoes{
-	padding: 150px;
-	background: #00FD00;
+	padding: 80px;
+	background: #565051;
 }
+
 #part1{
 	
 }
@@ -28,17 +29,25 @@ header{
 }
 .coluna_esq{
 	grid-area: colt_esq;
-	background: #9000FF;
+	background: #B1B17F;
 }
 .coluna_dir{
 	grid-area: colt_dir;
-	background: #06FFE5;
+	background: #2B1B17;
 }
 #part2{
 	padding: 250px;
-	background: #FF9600;
+	background: #2B1B17;
 }
 footer{
 	padding: 30px;
-	background: #FF00E4;
+	background: #0C090A;
 }
+
+.section {
+	font-size:400px ;
+    color:#F8F8FF;
+}
+
+
+
