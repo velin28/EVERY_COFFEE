@@ -1,0 +1,44 @@
+*{
+	margin: 0px;
+	padding: 0;
+}
+header{
+	padding: 25px 25px;
+	background: #121010;
+}
+.img{
+	width: 300px;
+}
+#menu{
+	padding: 45px;
+	background: #3600FF;
+}
+#promoçoes{
+	padding: 150px;
+	background: #00FD00;
+}
+#part1{
+	
+}
+.cont{
+	display: grid;
+	grid-template-areas:
+	"colt_esq colt_dir";
+	grid-template-columns: 720px 720px;
+}
+.coluna_esq{
+	grid-area: colt_esq;
+	background: #9000FF;
+}
+.coluna_dir{
+	grid-area: colt_dir;
+	background: #06FFE5;
+}
+#part2{
+	padding: 250px;
+	background: #FF9600;
+}
+footer{
+	padding: 30px;
+	background: #FF00E4;
+}
